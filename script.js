@@ -9,3 +9,8 @@ const getColor=()=>{
 
     //navigator.clipboard.writeText(randomCode) //to copy the random code automatically 
 }
+
+// event call
+document.getElementById("btn").addEventListener("click",getColor);
+// initial call
+getColor();
