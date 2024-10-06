@@ -16,7 +16,7 @@
 } */
 
 body{
-    transition: 1s;
+    transition: 0.5s;
 }
 .container{
     width: 30rem;  /* 1rem = 16px */
