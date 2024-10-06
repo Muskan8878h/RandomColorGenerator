@@ -1,1 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*row wise center*/
+    align-items: center; /*row and colomn wise center*/
+    
+}
+/* body{
+    background-color: black;
+} */
 
+body{
+    transition: 1s;
+}
+.container{
+    width: 30rem;  /* 1rem = 16px */
+    /* height: 10rem; */
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+button{
+    font-size: 40px;
+    width: 100%;  /*button inline element work with text align*/
+    display: block;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 35px;
+    cursor: pointer;
+}
